@@ -89,6 +89,7 @@ export default {
     },
 
     isClearFilters() {
+      this.idName = ''
       this.$emit('isClearFilters')
     }
   },
